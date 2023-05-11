@@ -311,7 +311,34 @@ ul{
   }
   
 /* About Styles */
-#about-section {
+.about {
   display: grid;
+  grid-template-columns: 50% 50%;
+  height: 20%;
+  background-color: #45567d;
+  transition: background-color 1s linear;
+  margin-top: 90px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
   
+  
+}
+.intro-left{
+  margin-top: auto;
+  
+}
+.intro-right{
+  color: #000;
+}
+
+.about-page{
+  background-color: var(--main-gray);
+}
+.image{
+object-fit: cover;
+margin-top: auto;
+}
+.skillset{
+width: 100%;
 }
