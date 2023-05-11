@@ -310,3 +310,8 @@ ul{
     }
   }
   
+/* About Styles */
+#about-section {
+  display: grid;
+  
+}
